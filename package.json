@@ -31,8 +31,7 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "preDeploy": "gatsby build --prefix-paths",
-    "deploy": "npm run preDeploy && gh-pages -d public",
+    "deploy": "gatsby build --prefix-paths && gh-pages -b master -d public",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
     "test": "echo \"no test specified\" && exit 0"
   },
