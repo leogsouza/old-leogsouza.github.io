@@ -12,12 +12,7 @@ import Footer from "../components/Footer";
 
 const IndexPage = () => (
   <div>
-    <Header />
-    <About />
-    <Resume />
-    <Portfolio />
-    <Testimonials />
-    <Footer />
+    <Header />    
   </div>
 );
 

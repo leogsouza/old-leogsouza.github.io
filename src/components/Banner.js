@@ -4,12 +4,10 @@ import SocialLinks from "./SocialLinks";
 const Banner = () => (
   <div className="row banner">
     <div className="banner-text">
-      <h1 className="responsive-headline">I'm Jonathan Doe.</h1>
+      <h1 className="responsive-headline">Hi, I'm Leonardo Souza.</h1>
       <h3>
-        I'm a Manila based <span>graphic designer</span>,
-        <span>illustrator</span> and <span>webdesigner</span> creating awesome
-        and effective visual identities for companies of all sizes around the
-        globe. Let's
+      I'm a self-taught developer with 14+ years of experience. Currently I'm based in São Paulo, Brazil .
+      My currently toolset includes technologies such as: Node.JS, Angular, React, Golang Let's
         <a className="smoothscroll" href="#about">
           {" "}
           start scrolling
