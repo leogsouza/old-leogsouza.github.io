@@ -6,17 +6,9 @@ const Banner = () => (
     <div className="banner-text">
       <h1 className="responsive-headline">Hi, I'm Leonardo Souza.</h1>
       <h3>
-      I'm a self-taught developer with 14+ years of experience. Currently I'm based in São Paulo, Brazil .
-      My currently toolset includes technologies such as: Node.JS, Angular, React, Golang Let's
-        <a className="smoothscroll" href="#about">
-          {" "}
-          start scrolling
-        </a>{" "}
-        and learn more
-        <a className="smoothscroll" href="#about">
-          {" "}
-          about me
-        </a>.
+      I'm a software developer with 14+ years of experience. Currently I'm based in São Paulo, Brazil.
+      I mostly do Backend Development (Node.js, PHP, Java and Golang) but I do enjoy Frontend (React, Angular and Vue.js) 
+      and Mobile (Android, React Native) too.
       </h3>
       <hr />
       <SocialLinks />

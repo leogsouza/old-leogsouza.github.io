@@ -2,7 +2,6 @@ import React from "react";
 import {
   FaFacebook,
   FaGithub,
-  FaGooglePlus,
   FaInstagram,
   FaTwitter
 } from "react-icons/lib/fa";
@@ -11,27 +10,22 @@ import {
 const SocialLinks = () => (
   <ul className="social">
     <li>
-      <a href="#">
+      <a href="https://www.facebook.com/leogsouza">
         <FaFacebook />
       </a>
     </li>
     <li>
-      <a href="#">
+      <a target="_blank" href="https://www.twitter.com/leogsouza">
         <FaTwitter />
       </a>
-    </li>
+    </li>    
     <li>
-      <a href="#">
-        <FaGooglePlus />
-      </a>
-    </li>
-    <li>
-      <a href="#">
+      <a target="_blank" href="https://www.instagram.com/leogsouza">
         <FaInstagram />
       </a>
     </li>
     <li>
-      <a href="#">
+      <a target="_blank" href="https://www.github.com/leogsouza">
         <FaGithub />
       </a>
     </li>
