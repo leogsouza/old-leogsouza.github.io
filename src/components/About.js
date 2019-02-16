@@ -1,7 +1,7 @@
 import React from "react";
 import { FaCloudDownload } from "react-icons/lib/fa";
 
-import profilePic from "../assets/images/profilepic.jpg";
+import profilePic from "../assets/images/profile.jpg";
 
 const About = () => (
   <section id="about">
@@ -12,24 +12,12 @@ const About = () => (
       <div className="nine columns main-col">
         <h2>About Me</h2>
         <p>
-          Comming soon
+        I am a software developer expert building backend applications. I have strong knowledge building frontend applications
+and mobile applications. I'm looking for opportunities to build new things and learn new concepts and technologies
+to improve my carrer.
         </p>
         <div className="row">
-          <div className="columns contact-details">
-            <h2>Contact Details</h2>
-            <p className="address">
-              <span>Jonathan Doe</span>
-              <br />
-              <span>
-                1600 Amphitheatre Parkway
-                <br /> Mountain View, CA 94043 US
-              </span>
-              <br />
-              <span>(123)456-7890</span>
-              <br />
-              <span>anyone@website.com</span>
-            </p>
-          </div>
+          
           <div className="columns download">
             <p>
               <a href="#" className="button">
