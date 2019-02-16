@@ -35,7 +35,13 @@ module.exports = {
               maxWidth: 630
             }
           },
-          "gatsby-remark-copy-linked-files"
+          "gatsby-remark-copy-linked-files",
+          {
+            resolve: `gatsby-plugin-google-analytics`,
+            options: {
+              trackingId: `UA-134652687-1`,
+            },
+          },
         ]
       }
     },

@@ -1,5 +1,6 @@
 import React from "react";
 import { FaCloudDownload } from "react-icons/lib/fa";
+import { OutboundLink } from 'gatsby-plugin-google-analytics'
 
 import profilePic from "../assets/images/profile.jpg";
 
@@ -20,9 +21,9 @@ to improve my carrer.
           
           <div className="columns download">
             <p>
-              <a href="#" className="button">
+              <OutboundLink href="#download-resume" className="button">
                 <FaCloudDownload /> Download Resume
-              </a>
+              </OutboundLink>
             </p>
           </div>
         </div>
