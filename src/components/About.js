@@ -4,6 +4,8 @@ import { OutboundLink } from 'gatsby-plugin-google-analytics'
 
 import profilePic from "../assets/images/profile.jpg";
 
+import resume from '../assets/documents/leonardo-goncalves-resume.pdf';
+
 const About = () => (
   <section id="about">
     <div className="row">
@@ -21,7 +23,7 @@ to improve my carrer.
           
           <div className="columns download">
             <p>
-              <OutboundLink href="#download-resume" className="button">
+              <OutboundLink target="_blank" href={resume} className="button">
                 <FaCloudDownload /> Download Resume
               </OutboundLink>
             </p>
